@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="320" viewBox="0 0 1280 320" role="img" aria-label="Arjun Nagendra — I build AI systems that stay grounded.">
+  <defs>
+    <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#8ca0b4" fill-opacity="0.16"/>
+    </pattern>
+    <radialGradient id="glow" cx="0.8" cy="0.4" r="0.6">
+      <stop offset="0" stop-color="#5eead4" stop-opacity="0.14"/>
+      <stop offset="1" stop-color="#5eead4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1280" height="320" rx="18" fill="#0a0e13"/>
+  <rect width="1280" height="320" rx="18" fill="url(#dots)"/>
+  <rect width="1280" height="320" rx="18" fill="url(#glow)"/>
+
+  <!-- graph motif: one highlighted path through the curriculum graph -->
+  <g fill="none" stroke="#243241" stroke-width="2">
+    <path d="M820 170 C860 170 880 100 920 100"/>
+    <path d="M820 170 C860 170 880 240 920 240"/>
+    <path d="M920 170 C960 170 980 220 1020 220"/>
+    <path d="M1020 120 C1060 120 1080 150 1120 150"/>
+    <path d="M1020 220 C1060 220 1080 250 1120 250"/>
+  </g>
+  <g fill="none" stroke="#5eead4" stroke-width="2.5">
+    <path d="M820 170 L920 170"/>
+    <path d="M920 170 C960 170 980 120 1020 120"/>
+    <path d="M1020 120 C1060 120 1080 80 1120 80"/>
+  </g>
+  <g fill="#0a0e13" stroke="#3d4e5f" stroke-width="2">
+    <circle cx="920" cy="100" r="6"/><circle cx="920" cy="240" r="6"/>
+    <circle cx="1020" cy="220" r="6"/><circle cx="1120" cy="150" r="6"/><circle cx="1120" cy="250" r="6"/>
+  </g>
+  <g fill="#5eead4">
+    <circle cx="820" cy="170" r="14" fill-opacity="0.15"/><circle cx="820" cy="170" r="7"/>
+    <circle cx="920" cy="170" r="14" fill-opacity="0.15"/><circle cx="920" cy="170" r="7"/>
+    <circle cx="1020" cy="120" r="14" fill-opacity="0.15"/><circle cx="1020" cy="120" r="7"/>
+    <circle cx="1120" cy="80" r="14" fill-opacity="0.15"/><circle cx="1120" cy="80" r="7"/>
+  </g>
+
+  <!-- text -->
+  <rect x="64" y="70" width="12" height="12" rx="2.5" fill="#5eead4"/>
+  <text x="88" y="81" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="17" fill="#8b98a5">// ai engineer · bengaluru</text>
+  <text x="62" y="170" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#e6edf3" letter-spacing="-1.5">Arjun Nagendra</text>
+  <text x="64" y="220" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="28" font-weight="500" fill="#5eead4">I build AI systems that stay grounded.</text>
+  <text x="64" y="270" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" fill="#7d8a97">knowledge graphs · agent pipelines · checks that catch model mistakes</text>
+</svg>
